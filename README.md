@@ -1,31 +1,50 @@
-# Happ - Proxy Utility
+Happ — программа для управления прокси (прокси-утилита)
 
-| iOS                                                                        | Android                                                                                                | Desktop                                                                                                         |
-| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
-| [App Store-Global](https://apps.apple.com/us/app/happ-proxy-utility/id6504287215) | [Google Play](https://play.google.com/store/apps/details?id=com.happproxy)                      | [Windows-x64](https://github.com/Happ-proxy/happ-desktop/releases/latest/download/setup-Happ.x64.exe)/[mirror](https://files-hub.com/download/windows/latest?arch=x64) |
-| [App Store-Only RU](https://apps.apple.com/ru/app/happ-lite/id6799917773)  | [Download APK](https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk)/[mirror](https://files-hub.com/download/android/latest?arch=universal) | [Windows-arm64](https://github.com/Happ-proxy/happ-desktop/releases/latest/download/setup-Happ.arm64.exe)/[mirror](https://files-hub.com/download/windows/latest?arch=arm64) |
-| [Testflight-Global](https://testflight.apple.com/join/XMls6Ckd)            | [Download Beta APK](https://github.com/Happ-proxy/happ-android/releases/download/4.12.0/Happ_beta.apk)  | [macOS(arm64/intel)](https://github.com/Happ-proxy/happ-desktop/releases/latest/download/Happ.macOS.universal.dmg)/[mirror](https://files-hub.com/download/macos/latest?arch=universal)|
-| [Testflight-Only RU](https://testflight.apple.com/join/ystvnbsP)           |                                                                                                        | [Linux-x64(.deb)](https://github.com/Happ-proxy/happ-desktop/releases/latest/download/Happ.linux.x64.deb)/[mirror](https://files-hub.com/download/linux/latest?arch=x64&package=deb) |
-|                                                                            |                                                                                                        | [Linux-arm64(.deb)](https://github.com/Happ-proxy/happ-desktop/releases/latest/download/Happ.linux.arm64.deb)/[mirror](https://files-hub.com/download/linux/latest?arch=arm64&package=deb) |
-|                                                                            |                                                                                                        | [Linux-x64(.rpm)](https://github.com/Happ-proxy/happ-desktop/releases/latest/download/Happ.linux.x64.rpm)/[mirror](https://files-hub.com/download/linux/latest?arch=x64&package=rpm) |
-|                                                                            |                                                                                                        | [Linux-arm64(.rpm)](https://github.com/Happ-proxy/happ-desktop/releases/latest/download/Happ.linux.arm64.rpm)/[mirror](https://files-hub.com/download/linux/latest?arch=arm64&package=rpm) |
-|                                                                            |                                                                                                        | [ArchLinux-x64(.pkg)](https://github.com/Happ-proxy/happ-desktop/releases/latest/download/Happ.linux.x64.pkg.tar.zst)/[mirror](https://files-hub.com/download/linux/latest?arch=x64&package=pkg) |
-|                                                                            |                                                                                                        | [ArchLinux-arm64(.pkg)](https://github.com/Happ-proxy/happ-desktop/releases/latest/download/Happ.linux.arm64.pkg.tar.zst)/[mirror](https://files-hub.com/download/linux/latest?arch=arm64&package=pkg) |
+Это приложение для телефона и компьютера. Оно помогает удобно подключаться к своим прокси-серверам. Работает на ядре Xray. Само приложение не продаёт и не даёт готовый VPN — сервер нужно найти или настроить самому. Данные никуда не отправляет, всё остаётся только на вашем устройстве.
 
-Happ is a mobile application designed for convenient proxy server management, powered by the robust Xray core. The app features an intuitive interface and a range of useful functions, making it an essential tool for managing connections.
+Как скачать (простыми словами)
+На телефон Android
+Откройте Google Play (магазин приложений).
+Найдите Happ Proxy Utility или сразу перейдите по ссылке:
+[play.google.com/store/apps/details](https://play.google.com/store/apps/details?id=com.happproxy)
+Нажмите Установить.
+Если Google Play не работает — скачайте файл напрямую (APK):
+[github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk](https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk)
+(или зеркало: [files-hub.com/download/android/latest](https://files-hub.com/download/android/latest?arch=universal))
 
-**Key features of Happ include:**
+После скачивания откройте файл и разрешите установку из неизвестных источников (обычно телефон сам спросит).
 
-* Configuration of proxy servers based on flexible routing rules.
-* Support for multiple modern protocols, including:
-  * **VLESS (Reality)**
-  * **VMess**
-  * **Trojan**
-  * **Shadowsocks**
-  * **Socks**
+На iPhone (Айфон)
+Обычная версия (глобальная):
+[apps.apple.com/us/app/happ-proxy-utility/id6504287215](https://apps.apple.com/us/app/happ-proxy-utility/id6504287215)
 
-Happ ensures your network activity remains private by not collecting any data; your information remains solely on your device without being sent to external servers.
+Версия только для России:
+[apps.apple.com/ru/app/happ-lite/id6799917773](https://apps.apple.com/ru/app/happ-lite/id6799917773)
 
-It's important to highlight that Happ does not provide VPN services for purchase. Users are responsible for acquiring or setting up their own servers. Users should also comply with applicable laws in their jurisdiction when utilizing the app.
+Откройте ссылку на телефоне.
+Нажмите Получить / Загрузить.
+Если обычный App Store не открывается — есть тестовые версии через TestFlight (нужно сначала поставить приложение TestFlight):
 
-To report a problem, use our [service](https://issues.happ.su/)
+Глобальная: [testflight.apple.com/join/XMls6Ckd](https://testflight.apple.com/join/XMls6Ckd)
+Только RU: [testflight.apple.com/join/ystvnbsP](https://testflight.apple.com/join/ystvnbsP)
+На компьютер (Windows, Mac, Linux)
+Самые нужные ссылки:
+
+Windows (обычный 64-бит):
+[github.com/Happ-proxy/happ-desktop/releases/latest/download/setup-Happ.x64.exe](https://github.com/Happ-proxy/happ-desktop/releases/latest/download/setup-Happ.x64.exe)
+
+Mac (Apple Silicon и Intel):
+[github.com/Happ-proxy/happ-desktop/releases/latest/download/Happ.macOS.universal.dmg](https://github.com/Happ-proxy/happ-desktop/releases/latest/download/Happ.macOS.universal.dmg)
+
+Linux (Debian/Ubuntu .deb, обычный 64-бит):
+[github.com/Happ-proxy/happ-desktop/releases/latest/download/Happ.linux.x64.deb](https://github.com/Happ-proxy/happ-desktop/releases/latest/download/Happ.linux.x64.deb)
+
+Остальные варианты (ARM, RPM, Arch и т.д.) есть на той же странице релизов на GitHub, если нужно именно под вашу систему.
+
+Что умеет программа
+Удобно добавлять и переключать прокси-серверы.
+Поддерживает современные протоколы: VLESS (Reality), VMess, Trojan, Shadowsocks, Socks.
+Можно настраивать маршруты (что через прокси, что напрямую).
+Если что-то не устанавливается или не работает — пишите на их сайт поддержки: [issues.happ.su](https://issues.happ.su/)
+
+Если нужно, могу ещё проще расписать именно под ваш телефон или компьютер (скажите, какой у вас).
